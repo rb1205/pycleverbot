@@ -1,4 +1,18 @@
 pycleverbot
-===========
 
-Python bindings for the cleverbot web site
+# Python bindings for the cleverbot web site #
+
+This library provides binding for Cleverbot. It supports opening a chat session, asking stuff and receive answers.
+
+Tested with python 2.5 and 2.6, not with 3.0. Uses urllib2, md5 and re standard modules.
+
+---
+
+Example use:
+
+>>> import cleverbot
+>>> mycb=cleverbot.Session()
+>>> mycb.Ask("Hello there")
+'Hello.'
+>>> mycb.Ask('Whats going on?')
+'Not much. What is your name?'
