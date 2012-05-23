@@ -10,7 +10,7 @@ Tested with python 2.5 and 2.6, not with 3.0. Uses urllib2, md5 and re standard 
 
 Example use:
 
->>> import cleverbot
+>>> import pycleverbot
 >>> mycb=cleverbot.Session()
 >>> mycb.Ask("Hello there")
 'Hello.'
